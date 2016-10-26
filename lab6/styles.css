@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  color: #333;
+  margin:10;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin:10;
+  padding:30;
+}
+
+nav ul{
+  background-color: gray;
+  padding:20px;
+  margin:20px;
+}
+
+nav li{
+  display: inline;
+  list-style-type: none;
+}
+
+nav li a {
+  color:black;
+  padding: 10px;
+  margin:5px;
+  text-decoration: none;
+  background-color: #CCCCCC;
+  border-radius: 5px;
+}
+
+#issue {
+  background-color: pink;
+}
+
+@media sceen and (max-width: 768px){
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  h1 {
+    font-size:4em;
+    text-align: center;
+  }
+}
+
+  @media (min-width:1024px) {
+    h1 {
+      font-size:6em;
+      text-align: center;
+    }
+  }
+
+.row {
+  padding:10;
+  display:flex;
+  flex-direction: column;
+  margin:10;
+}
+
+
+footer {
+  padding:20;
+  margin:10;
+  text-align: center;
+}
